@@ -3,29 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DD1F91DD10378B248DB31D1 /* Pods_Uncrowdify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77303F3E08C2882785FF16C /* Pods_Uncrowdify.framework */; };
+		DB38161F243157F600ACF165 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DB38161E243157F600ACF165 /* Podfile */; };
+		DB38162124315F1C00ACF165 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB38162024315F1C00ACF165 /* Store.swift */; };
+		DB38162324319A5400ACF165 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB38162224319A5300ACF165 /* GoogleService-Info.plist */; };
+		DB3816252431A95500ACF165 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3816242431A95500ACF165 /* Extensions.swift */; };
 		DBE1BA882430673C0015ED62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1BA872430673C0015ED62 /* AppDelegate.swift */; };
 		DBE1BA8A2430673C0015ED62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1BA892430673C0015ED62 /* SceneDelegate.swift */; };
-		DBE1BA8C2430673C0015ED62 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1BA8B2430673C0015ED62 /* FirstViewController.swift */; };
-		DBE1BA8E2430673C0015ED62 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1BA8D2430673C0015ED62 /* SecondViewController.swift */; };
 		DBE1BA912430673C0015ED62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE1BA8F2430673C0015ED62 /* Main.storyboard */; };
 		DBE1BA93243067450015ED62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE1BA92243067450015ED62 /* Assets.xcassets */; };
 		DBE1BA96243067450015ED62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE1BA94243067450015ED62 /* LaunchScreen.storyboard */; };
+		DBE1BA9E2431526F0015ED62 /* StoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE1BA9D2431526F0015ED62 /* StoresViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		685F46114A8A5C89F66CB21F /* Pods-Uncrowdify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uncrowdify.release.xcconfig"; path = "Target Support Files/Pods-Uncrowdify/Pods-Uncrowdify.release.xcconfig"; sourceTree = "<group>"; };
+		B77303F3E08C2882785FF16C /* Pods_Uncrowdify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uncrowdify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB38161E243157F600ACF165 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB38162024315F1C00ACF165 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		DB38162224319A5300ACF165 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB3816242431A95500ACF165 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DBE1BA842430673C0015ED62 /* Uncrowdify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uncrowdify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE1BA872430673C0015ED62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBE1BA892430673C0015ED62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBE1BA8B2430673C0015ED62 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DBE1BA8D2430673C0015ED62 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DBE1BA902430673C0015ED62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBE1BA92243067450015ED62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBE1BA95243067450015ED62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBE1BA97243067450015ED62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE1BA9D2431526F0015ED62 /* StoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresViewController.swift; sourceTree = "<group>"; };
+		E1D15F7E9ADA54C4F3FC20F6 /* Pods-Uncrowdify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uncrowdify.debug.xcconfig"; path = "Target Support Files/Pods-Uncrowdify/Pods-Uncrowdify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD1F91DD10378B248DB31D1 /* Pods_Uncrowdify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2060A73E8BC37D295C6183A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1D15F7E9ADA54C4F3FC20F6 /* Pods-Uncrowdify.debug.xcconfig */,
+				685F46114A8A5C89F66CB21F /* Pods-Uncrowdify.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2B4DB51C0391893FB5593664 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B77303F3E08C2882785FF16C /* Pods_Uncrowdify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DBE1BA7B2430673C0015ED62 = {
 			isa = PBXGroup;
 			children = (
 				DBE1BA862430673C0015ED62 /* Uncrowdify */,
 				DBE1BA852430673C0015ED62 /* Products */,
+				2060A73E8BC37D295C6183A6 /* Pods */,
+				2B4DB51C0391893FB5593664 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +88,17 @@
 		DBE1BA862430673C0015ED62 /* Uncrowdify */ = {
 			isa = PBXGroup;
 			children = (
+				DB38161E243157F600ACF165 /* Podfile */,
 				DBE1BA872430673C0015ED62 /* AppDelegate.swift */,
+				DB3816242431A95500ACF165 /* Extensions.swift */,
 				DBE1BA892430673C0015ED62 /* SceneDelegate.swift */,
-				DBE1BA8B2430673C0015ED62 /* FirstViewController.swift */,
-				DBE1BA8D2430673C0015ED62 /* SecondViewController.swift */,
+				DBE1BA9D2431526F0015ED62 /* StoresViewController.swift */,
+				DB38162024315F1C00ACF165 /* Store.swift */,
 				DBE1BA8F2430673C0015ED62 /* Main.storyboard */,
 				DBE1BA92243067450015ED62 /* Assets.xcassets */,
 				DBE1BA94243067450015ED62 /* LaunchScreen.storyboard */,
 				DBE1BA97243067450015ED62 /* Info.plist */,
+				DB38162224319A5300ACF165 /* GoogleService-Info.plist */,
 			);
 			path = Uncrowdify;
 			sourceTree = "<group>";
@@ -77,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBE1BA9A243067450015ED62 /* Build configuration list for PBXNativeTarget "Uncrowdify" */;
 			buildPhases = (
+				957D6F5B02AE9B23ADC8D404 /* [CP] Check Pods Manifest.lock */,
 				DBE1BA802430673C0015ED62 /* Sources */,
 				DBE1BA812430673C0015ED62 /* Frameworks */,
 				DBE1BA822430673C0015ED62 /* Resources */,
+				5DB127CEA77FD65B25BEA460 /* [CP] Embed Pods Frameworks */,
+				F6636D598FED95557174EB5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,21 +166,83 @@
 			files = (
 				DBE1BA96243067450015ED62 /* LaunchScreen.storyboard in Resources */,
 				DBE1BA93243067450015ED62 /* Assets.xcassets in Resources */,
+				DB38162324319A5400ACF165 /* GoogleService-Info.plist in Resources */,
+				DB38161F243157F600ACF165 /* Podfile in Resources */,
 				DBE1BA912430673C0015ED62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DB127CEA77FD65B25BEA460 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uncrowdify/Pods-Uncrowdify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uncrowdify/Pods-Uncrowdify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Uncrowdify/Pods-Uncrowdify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		957D6F5B02AE9B23ADC8D404 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Uncrowdify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6636D598FED95557174EB5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uncrowdify/Pods-Uncrowdify-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uncrowdify/Pods-Uncrowdify-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Uncrowdify/Pods-Uncrowdify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBE1BA802430673C0015ED62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBE1BA8E2430673C0015ED62 /* SecondViewController.swift in Sources */,
-				DBE1BA8C2430673C0015ED62 /* FirstViewController.swift in Sources */,
+				DB3816252431A95500ACF165 /* Extensions.swift in Sources */,
 				DBE1BA882430673C0015ED62 /* AppDelegate.swift in Sources */,
 				DBE1BA8A2430673C0015ED62 /* SceneDelegate.swift in Sources */,
+				DBE1BA9E2431526F0015ED62 /* StoresViewController.swift in Sources */,
+				DB38162124315F1C00ACF165 /* Store.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +384,7 @@
 		};
 		DBE1BA9B243067450015ED62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D15F7E9ADA54C4F3FC20F6 /* Pods-Uncrowdify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,15 +394,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.obsessivecoders.Uncrowdify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncrowdify.Uncrowdify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DBE1BA9C243067450015ED62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685F46114A8A5C89F66CB21F /* Pods-Uncrowdify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,10 +413,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.obsessivecoders.Uncrowdify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncrowdify.Uncrowdify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
