@@ -27,6 +27,7 @@
 		DB38162024315F1C00ACF165 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		DB38162224319A5300ACF165 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DB3816242431A95500ACF165 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DB381627243206EE00ACF165 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		DBE1BA842430673C0015ED62 /* Uncrowdify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uncrowdify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE1BA872430673C0015ED62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBE1BA892430673C0015ED62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,12 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				DB38161E243157F600ACF165 /* Podfile */,
-				DBE1BA872430673C0015ED62 /* AppDelegate.swift */,
-				DB3816242431A95500ACF165 /* Extensions.swift */,
-				DBE1BA892430673C0015ED62 /* SceneDelegate.swift */,
+				DB381627243206EE00ACF165 /* README.md */,
 				DBE1BA9D2431526F0015ED62 /* StoresViewController.swift */,
 				DB38162024315F1C00ACF165 /* Store.swift */,
+				DB3816242431A95500ACF165 /* Extensions.swift */,
 				DBE1BA8F2430673C0015ED62 /* Main.storyboard */,
+				DBE1BA872430673C0015ED62 /* AppDelegate.swift */,
+				DBE1BA892430673C0015ED62 /* SceneDelegate.swift */,
 				DBE1BA92243067450015ED62 /* Assets.xcassets */,
 				DBE1BA94243067450015ED62 /* LaunchScreen.storyboard */,
 				DBE1BA97243067450015ED62 /* Info.plist */,
